@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+   text-wrap: pretty;
+}
+
+.navbar {
+    /* background-color: chocolate !important; */
+}
+
+.algin {
+    max-width: 1200px;
+    margin: auto;
+    height: auto;
+    padding: 0 5rem;
+}
+
+.componentSpacing {
+    padding: 2rem;
+}
+
+h1,
+h2 {
+    font-family: "Merienda", cursive;
+    font-size: 2.8rem !important;
+    font-weight: 900 !important;
+}
+
+p,
+h3,
+button {
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.navbar-nav a {
+    /* background-color: #91ac77; */
+    text-decoration: none;
+    color: #343a40;
+    font-size: 1.3rem;
+    font-family: Nunito, sans-serif;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+.heroSection {
+    background-image: url(./assets/images/hero.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 20rem 0rem;
+    background-image: linear-gradient(90deg, white, transparent 70%), url(./assets/images/hero.jpg);
+}
+
+.heroJumbotron h1 {
+    font-size: 5.5rem !important;
+    /* background-color: #00ffff; */
+    padding: 0rem 8rem;
+    font-weight: 800;
+}
+
+.heroJumbotron p {
+    font-size: 1.3rem;
+    padding: 0rem 4rem;
+    font-weight: 400;
+}
+
+.heroJumbotron button {
+    background-color: #be9b79d0;
+    padding: 1rem 2rem;
+    color: #ffffff;
+    border: 0rem;
+}
+
+.heroJumbotron a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+.heroJumbotron button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.headingTitle img {
+    height: auto;
+    width: 20%;
+}
+
+.facilityCard img {
+    height: 12.9vh;
+    width: auto;
+}
+
+.popularCard img {
+    width: 75%;
+}
+
+.facilityCardBody h3 {
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.facilityCardBody p {
+    /* padding: 0 3rem; */
+    font-size: 1.1rem;
+}
+
+.formGroup input {
+    margin-bottom: 1.5rem;
+    width: 90%;
+    padding: 1rem 2rem;
+
+}
+
+.formGroup button {
+    padding: 0.8rem 3.5rem;
+    background-color: #be9c79;
+    border: 0;
+    color: #ffffff;
+}
+
+.formGroup button:hover {
+    background-color: #000000;
+}
+
+.bookingForm {
+    border: solid 1px black;
+    width: 90% !important;
+    margin: auto;
+    padding: 10px 0;
+}
+
+.formGroup ::placeholder {
+    font-size: 1.3rem;
+}
+
+
+.iconsCardHeader i {
+    background-color: #be9c79;
+    padding: 20px;
+    border-radius: 5rem;
+    color: #ffffff;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.ourMenuJumbotron button {
+    background-color: #be9c79;
+    padding: 0.6rem 3rem 0.6rem 3rem;
+    border: 0;
+}
+
+.ourMenuJumbotron button:hover {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.ourMenuJumbotron button a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #f0f8ff;
+}
+
+.iconsCardBody p {
+    font-size: 1.5rem !important;
+}
+
+.copyright p {
+    font-size: 1.5rem !important;
+}
+
+.copyright span {
+    color: #be9c79;
+}
+
+
+
+@media(width <=576px) {
+
+    .headingTitle img {
+        height: auto;
+        width: 35%;
+    }
+
+    .heroJumbotron h1 {
+        font-size: 2rem !important;
+    }
+    .heroJumbotron p{
+        font-size: 0.9rem;       
+    }
+    .heroJumbotron button{
+        padding: 0.5rem 2.6rem;
+    }
+
+    .ourMenuJumbotron h2 {
+        font-size: 2rem !important;
+    }
+
+    .ourMenuJumbotron P {
+        font-size: 1.3rem;
+    }
+
+    .ourMenuJumbotron button {
+        padding: 1rem 2.5rem 1rem 2.5rem;
+    }
+
+    .galleryCard img {
+        width: 75%;
+    }
+
+    .teamCard img {
+        width: 75%;
+    }
+
+    .iconsCardBody h3 {
+        font-size: 1.2rem;
+    }
+
+    .iconsCardBody p {
+        font-size: 1.2rem !important;
+    }
+    .iconsCardHeader i{
+font-size: 1.2rem;
+    }
+
+    .copyright p {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media(width>=576.2px) and (width<=768px) {
+    .headingTitle img {
+        height: auto;
+        width: 30%;
+    }
+     .heroJumbotron h1 {
+        font-size: 2.6rem !important;
+    }
+    .heroJumbotron p{
+        font-size: 1.2rem;       
+    }
+    .heroJumbotron button{
+        padding: 0.5rem 2.6rem;
+    }
+
+    .iconsCardBody h3 {
+        font-size: 1.2rem;
+    }
+
+    .iconsCardBody p {
+        font-size: 1.2rem !important;
+    }
+
+    .popularCardHeader img {
+        width: 75%;
+    }
+
+    .copyright p {
+        font-size: 1.2rem !important;
+    }
+
+    .ourMenuJumbotron h2 {
+        font-size: 2.5rem !important;
+    }
+
+    .ourMenuJumbotron P {
+        font-size: 1rem;
+    }
+
+
+}
+
